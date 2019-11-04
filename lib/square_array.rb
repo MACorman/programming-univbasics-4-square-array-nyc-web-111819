@@ -3,7 +3,7 @@ def square_array(numbers)
   i = 0 
   while i < numbers.size do
     result[i] = numbers[i]**2
-    counter += 1 
+    i += 1 
   end
-  square_array
+  
 end
